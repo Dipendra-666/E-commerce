@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500;1,700&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+nav ul li
+{
+    display: inline;
+    padding:10px;
+}
+li:hover
+{
+ color:red;
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 700;
+}
+.f
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ai
+{
+    align-items: center;
+}
+.con
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top
+{
+    background: #FEF7F6;
+    line-height: 50px;
+    font-size: 13px;
+}
+header
+{
+    padding: 20px 0px;
+}
+.W-100
+{
+    width:100%;
+}
+.banner
+{
+    background: url(../img/About.png);
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+
+}
+.bleft
+{
+    flex-basis: 40%;
+    text-align: center;
+}
+.bleft h1
+{
+    font-size: 55px;
+}
+.bright
+{
+    flex-basis: 60%;
+}
+.block1
+{
+    padding: 30px 0;
+    text-align: center;
+}
+.block1 h4
+{
+    padding: 30px 0;
+}
+.bg1
+{
+    background: #EAE2D8;
+}
+.box1
+{
+    border: burlywood 1px dotted;
+    padding: 20px;
+}
+.ain
+{
+    flex-wrap:wrap;
+}
+h2
+{
+    padding:30px 0px;
+}
+.box1
+{
+    margin: 20px 0px;
+}
+footer
+{
+    padding: 30px 0 0 0;
+    background: #EAE2D8;
+}
+.fbox li
+{
+  line-height: 30px;
+}
+.fbox li a
+{
+ color: #716e6e;
+}
+.fbox h4
+{
+    padding-bottom: 20px;
+}
+.copyright
+{
+    border-top: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 1px;
+}
+.icon li
+{
+   position:relative;
+   display: inline;
+}
+.icon li span
+{
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 3px;
+    top:-10px;
+    color:white;
+    right:-8px;
+}
+.box
+{
+    transition:all 0.9s linear 0.9s;
+    overflow: hidden;
+}
+img{
+    filter:drop-shadow(5px 5px 8px grey);
+}
+.box:hover img{
+    transform: scale(1.5,1.5);
+    filter:none;
+}
+i
+{
+    width:2px;
+    height:2px;
+}
+i:hover{color:red;}
